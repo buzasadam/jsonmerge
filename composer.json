@@ -1,0 +1,32 @@
+{
+  "name": "buzasadam/jsonmerge",
+
+  "type": "yii2-extension",
+
+  "description": "Merge JSON",
+  "keywords": ["yii2", "json", "merge"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "",
+    "forum": "",
+    "wiki": "",
+    "irc": "",
+    "source": ""
+  },
+  "authors": [
+    {
+      "name": "Adam Buzas",
+      "email": "foo@bar.com"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "^2.0.17"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "buzasadam\\jsonmerge\\": "src"
+    }
+  }
+}
